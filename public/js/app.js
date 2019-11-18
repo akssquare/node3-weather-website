@@ -8,6 +8,7 @@ console.log('Client side javascript file is loaded.');
 //     }
 // )
 
+console.log('New Change for git');
 const weatherform = document.querySelector('form');
 const search = document.querySelector('input');
 const message1 = document.querySelector('#message-1');
