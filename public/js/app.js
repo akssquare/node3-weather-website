@@ -30,7 +30,7 @@ weatherform.addEventListener('submit', (e) => {
             } else{
                 response.json().then((data) => {
                     if(data.error){
-                        console.log(data.error);
+                        console.log('->' + data.error);
                         message1.textContent=data.error;
                     } else { 
                         message1.textContent=data.location;
